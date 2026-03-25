@@ -1,16 +1,31 @@
-# React + Vite
+# BuyerForeSight User Directory Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive user directory dashboard built with React, Tailwind CSS, and React Router. It fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users) and provides search, sorting, and detailed user views.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **User Listing**: Displays users in a responsive table with columns for Name, Email, Phone, and Company.
+- **Search**: Client-side filtering by name or email (case-insensitive).
+- **Sorting**: Sort users by Name or Company in ascending/descending order.
+- **Detail Page**: Click any user row to view full user information, including address and company details.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices.
+- **Loading & Error States**: Handles API loading and error states gracefully.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (with hooks)
+- **React Router v6** (for navigation)
+- **Tailwind CSS** (styling and responsiveness)
+- **Fetch API** (data fetching)
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v14 or higher)
+- npm or yarn
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/buyerforesight.git
+   cd buyerforesight
