@@ -23,9 +23,3 @@ A responsive user directory dashboard built with React, Tailwind CSS, and React 
 - Node.js (v14 or higher)
 - npm or yarn
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/buyerforesight.git
-   cd buyerforesight
